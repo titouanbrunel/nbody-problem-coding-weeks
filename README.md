@@ -1,5 +1,10 @@
-# N-Body Gravitational Simulation
+#  ⚛️ N-Body Gravitational Simulation
 
+| 2D | 3D |
+|:--:|:--:|
+| ![2D simulation](figures/2D_N_Body_Problem.gif) | ![3D simulation](figures/3D_N_Body_Problem.gif) |
+
+---
 Numerical simulation of the N-body gravitational problem in 2D and 3D.
 Solves the coupled ODE system using `scipy.integrate.solve_ivp` with configurable
 integrators, collision detection, and animated visualization.
